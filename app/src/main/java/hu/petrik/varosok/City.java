@@ -45,7 +45,7 @@ public class City {
     @SuppressLint("DefaultLocale")
     @Override
     public String toString() {
-        return String.format("%s, %d, %d", this.name, this.country, this.popularity);
+        return String.format("%s, %s, %d", this.name, this.country, this.popularity);
     }
 }
 
